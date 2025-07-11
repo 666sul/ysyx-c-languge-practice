@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "temperature1.h"
-
+#include "getchar.h"
 
 void celsius (void);
 
@@ -14,9 +14,10 @@ int main ()
 	// fahr ();
 	
 //	Forachieve();
-	Forachnixu();
+//	Forachnixu();
 
 	
+	 Getchar();
 	//printf("a的长:%d\n",sizeof(a));
 
 //	system("");
