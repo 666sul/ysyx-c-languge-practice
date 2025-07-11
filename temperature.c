@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-
+#include "temperature1.h"
 
 
 void celsius (void);
@@ -9,9 +9,14 @@ void fahr (void);
 int main ()
 {
 
-	 celsius();
+	// celsius();
 
-	 fahr ();
+	// fahr ();
+	
+//	Forachieve();
+	Forachnixu();
+
+	
 	//printf("a的长:%d\n",sizeof(a));
 
 //	system("");
