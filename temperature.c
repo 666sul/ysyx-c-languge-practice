@@ -2,8 +2,10 @@
 #include <stdio.h>
 #include "temperature1.h"
 #include "getchar.h"
-
+#include "arry.h"
+#include "power.h"
 void celsius (void);
+
 
 void fahr (void);
 int main ()
@@ -17,7 +19,24 @@ int main ()
 //	Forachnixu();
 
 	
-	 Getchar();
+//	 Getchar();
+//
+//	 Compare2 ();
+//	 
+		// Findword();
+//		Arry();
+//
+		int i;
+		for( i=0;i<10;++i)
+	     // i=power(100,2);
+		printf("%d %d %d\n",i,power(2,i),power(-3,i));	
+		
+
+		// Pri_lon();
+		//
+		//
+		//
+		//
 	//printf("a的长:%d\n",sizeof(a));
 
 //	system("");
@@ -73,7 +92,7 @@ void fahr (void)
 		celsius=celsius+step;
 		
 
-}
+	}
 
 
 }
