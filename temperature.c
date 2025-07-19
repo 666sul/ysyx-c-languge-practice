@@ -4,10 +4,14 @@
 #include "getchar.h"
 #include "arry.h"
 #include "power.h"
+#include "getline.h"
+#include "copy.h"
+#include "jisuancd.h"
 void celsius (void);
-
-
 void fahr (void);
+//======================================================
+
+//#define Maxline 6   //允许最大的数组长度
 int main ()
 {
 
@@ -26,12 +30,23 @@ int main ()
 		// Findword();
 //		Arry();
 //
-		int i;
-		for( i=0;i<10;++i)
+//		int i;
+//		for( i=0;i<10;++i)
 	     // i=power(100,2);
-		printf("%d %d %d\n",i,power(2,i),power(-3,i));	
-		
-
+//		printf("%d %d %d\n",i,power(2,i),power(-3,i));	
+//========================find arrylong ===============================		
+	/*	int len ;
+		int max;
+		char line [Maxline];
+		char longget[Maxline];
+		max = 0;
+		while (len =getaline(line ,Maxline) > 0)
+			if(len > max){	
+				len=max;
+			copy(longget,line);}
+			if(max>0) //
+				printf("%s",longget);*/
+//===========================================================================
 		// Pri_lon();
 		//
 		//
@@ -39,7 +54,37 @@ int main ()
 		//
 	//printf("a的长:%d\n",sizeof(a));
 
-//	system("");
+//=========================triangel area1
+	//	angel_are();
+
+//===========================triangel area2
+
+	//	angel_area(3,4,5);
+
+
+
+//==========================================
+
+//=========================================  Quadratic Function1 
+
+	  QuadraticFunction1 (1,3,2);
+
+//========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 return 0;
 }

@@ -12,7 +12,7 @@ TARGET=a.out
 
 
 $(TARGET):$(OBJ)
-	$(CC) -Wall -g  $^
+	$(CC) -Wall -g -lm  $^
 
 
 clean:
