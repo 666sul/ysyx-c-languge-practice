@@ -6,3 +6,6 @@ In the printf(); the order is very imporant
 such as :
             printf("# \t");
             printf("\t #");   they are different 
+
+--gets remove at c11 standard
+x>y  ? x : y
