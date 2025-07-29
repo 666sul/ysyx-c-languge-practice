@@ -12,8 +12,7 @@ int main(void)
      // memcpy(str,arry,strlen(arry)+1);//
      //   memcpy(str, arry+20, 6);
 
-       // memcpy(str, arry+20*sizeof(char), 6*sizeof(char));
-
+       // memcpy(str, arry+20*sizeof(char), 6*sizeof(char)
       // printf("%s\n",str);
       //===============================
     
